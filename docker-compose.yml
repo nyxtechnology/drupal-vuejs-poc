@@ -1,4 +1,4 @@
-version: "3.7"
+version: "3.8"
 
 services:
   vuejspocdb:
@@ -140,18 +140,8 @@ services:
   #      - 'traefik.port=8983'
   #      - 'traefik.frontend.rule=Host:solr.drupal.docker.localhost'
 
-  mailhog:
-    image: mailhog/mailhog
-    container_name: "${PROJECT_NAME}_mailhog"
-    labels:
-      - "traefik.http.services.${PROJECT_NAME}_mailhog.loadbalancer.server.port=8025"
-      - "traefik.http.routers.${PROJECT_NAME}_mailhog.rule=Host(`mailhog.${PROJECT_BASE_URL}`)"
-
   #  memcached:
   #    image: wodby/memcached:1.4-2.0.0
-
-
-
 volumes:
   codebase:
 ## Docker-sync for macOS users
