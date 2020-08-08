@@ -1,0 +1,22 @@
+uuid: fc37d5f0-5a33-4c46-b570-c93308aea7c6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - claro_vuejs
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: claro_vuejs_local_tasks
+theme: claro_vuejs
+region: header
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

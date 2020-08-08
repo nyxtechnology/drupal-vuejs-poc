@@ -1,0 +1,14 @@
+uuid: b7be3702-fe8d-4d66-b17b-7d2004ab5b53
+name: 'VueJS POC'
+mail: edmar.gomes@nyx.tc
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

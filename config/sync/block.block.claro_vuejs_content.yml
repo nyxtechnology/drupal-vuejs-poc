@@ -1,0 +1,22 @@
+uuid: 2f23e391-f7b8-48eb-a163-7cd3687ff322
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - claro_vuejs
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: claro_vuejs_content
+theme: claro_vuejs
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

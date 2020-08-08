@@ -1,0 +1,22 @@
+uuid: ff2ff157-e914-4f2a-b59f-15015b8834cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - claro_vuejs
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: claro_vuejs_help
+theme: claro_vuejs
+region: help
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
